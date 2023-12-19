@@ -1,19 +1,19 @@
 console.log(`Trabalhando com listas`);
-// const salvador = `Salvador`;
+// const portoAlegre = `Porto Alegre`;
+// const florianopolis = `Florianópolis`;
 // const saoPaulo = `São Paulo`;
-// const rioDeJaneiro = `Rio de Janeiro`;
 
 let new = 2;
 
 const listaDeDestinos = new Array(
-    `Salvador`,
-    `São Paulo`,
-    `Rio de Janeiro`
+    `Porto Alegre`,
+    `Florianópolis`,
+    `São Paulo`
 );
 
 listaDeDestinos.push(`Curitiba`) // adicionando um item na lista
 console.log("Destinos possíveis:");
-//console.log(salvador, saoPaulo, rioDeJaneiro)
+//console.log(portoAlegre, florianopolis, saoPaulo)
 console.log(listaDeDestinos);
 
 listaDeDestinos.splice(1,1);
